@@ -1,0 +1,53 @@
+body{
+    width: 1100px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(3, 28, 90);
+    padding: 10px 10px;
+    }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.head{
+    border: 2px solid rgb(48, 100, 233);
+    margin-bottom: 10px;
+    color: rgb(48, 100, 233);
+}
+.navig{
+    border: 2px solid rgb(120, 239, 124);
+    margin-bottom: 10px;
+    color: rgb(120, 239, 124);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}.sect{
+    border: 2px solid rgb(243, 190, 93);
+    width: 700px;
+    margin-bottom: 10px;
+    color: rgb(243, 190, 93);
+    
+}
+.artic{
+    border: 2px solid rgb(93, 213, 243);
+    margin-bottom: 10px;
+    color: rgb(93, 213, 243);
+}
+.aside{
+    border: 2px solid rgb(243, 93, 93);
+    width: 400px;
+    color: rgb(243, 93, 93);
+    margin-bottom: 10px;
+   
+}
+.footer{
+    border: 2px solid rgb(97, 75, 184);
+    /*margin-bottom: 10px;*/
+    color: rgb(97, 75, 184);
+}
